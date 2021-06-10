@@ -53,25 +53,6 @@ You should have everything ready for compiling the game! Follow the guide below 
 At the moment, you can optionally fix the transition bug in songs with zoomed out cameras.
 - Run `haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons` in the terminal/command-prompt.
 
-### Ignored files
-
-I gitignore the API keys for the game, so that no one can nab them and post fake highscores on the leaderboards. But because of that the game
-doesn't compile without it.
-
-Just make a file in `/source` and call it `APIStuff.hx`, and copy paste this into it
-
-```haxe
-package;
-
-class APIStuff
-{
-	public static var API:String = "";
-	public static var EncKey:String = "";
-}
-
-```
-
-and you should be good to go there.
 
 ### Compiling game
 
@@ -94,6 +75,8 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 
 This will install about 22GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
+### What is Josiah Engine?
+It's a cool engine!
 
 ### Additional guides
 
