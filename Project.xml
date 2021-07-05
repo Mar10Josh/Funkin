@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Josiah Engine" file="Josiah Engine Swag" packageName="josiah.engine.lol" package="josiah.engine.lol" main="Main" version="0.2.7.1" company="JosiahEngineOFC" />
+	<app title="Josiah Engine" file="Josiah Engine" packageName="josiah.engine.lol" package="josiah.engine.lol" main="Main" version="0.2.7.1" company="Josiah" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
