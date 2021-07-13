@@ -1,0 +1,1 @@
+Library for other libraries
